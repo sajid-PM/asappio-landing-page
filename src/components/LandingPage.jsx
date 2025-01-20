@@ -122,7 +122,7 @@ const LandingPage = () => {
                             </p>
 
                             <a
-                                href="https://app.asappio.com/register" target="_blank"
+                                href="https://app.asappio.com/register"
                                 className="inline-block px-8 py-4 bg-blue-600 text-white rounded-full text-lg font-bold hover:bg-blue-700 transition duration-300 shadow-lg hover:shadow-xl cursor-pointer"
                             >
                                 {/* ↪️ */}

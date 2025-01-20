@@ -27,13 +27,13 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex md:items-center md:space-x-4">
           <a
-            href="https://app.asappio.com/login" target="_blank"
+            href="https://app.asappio.com/login"
             className="rounded-md bg-[#E84E4E] px-4 py-2 text-sm font-medium text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 cursor-pointer transition-all duration-300 ease-in-out"
           >
             Login
           </a>
           <a
-            href="https://app.asappio.com/register" target="_blank"
+            href="https://app.asappio.com/register"
             className="rounded-md bg-[#27C345] px-4 py-2 text-sm font-medium text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 cursor-pointer transition-all duration-300 ease-in-out"
           >
             Admin Signup
@@ -45,13 +45,13 @@ const Navbar = () => {
           <div className="absolute left-0 right-0 top-16 z-50 bg-[#1C2128] p-4 md:hidden">
             <div className="flex flex-col space-y-4">
               <a
-                href="https://app.asappio.com/login" target="_blank"
+                href="https://app.asappio.com/login"
                 className="w-full rounded-md bg-[#E84E4E] px-4 py-2 text-center text-sm font-medium text-white hover:bg-slate-700 cursor-pointer transition-all duration-300 ease-in-out"
               >
                 Login
               </a>
               <a
-                href="https://app.asappio.com/register" target="_blank"
+                href="https://app.asappio.com/register"
                 className="w-full rounded-md bg-[#27C345] px-4 py-2 text-center text-sm font-medium text-white hover:bg-slate-700 cursor-pointer transition-all duration-300 ease-in-out"
               >
                 Admin Signup
